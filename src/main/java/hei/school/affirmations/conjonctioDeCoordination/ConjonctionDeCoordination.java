@@ -1,6 +1,7 @@
 package hei.school.affirmations.conjonctioDeCoordination;
 import hei.school.affirmations.Affirmation;
-public abstract class ConjonctionDeCoordination {
+
+public abstract sealed class ConjonctionDeCoordination permits Et,Donc,Ou{
   protected Affirmation.ValeurDevérité a;
   protected Affirmation.ValeurDevérité b;
 
