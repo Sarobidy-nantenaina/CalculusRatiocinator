@@ -2,7 +2,7 @@ package hei.school.affirmations.conjonctioDeCoordination;
 
 import hei.school.affirmations.Affirmation;
 
-public class Ou extends ConjonctionDeCoordination {
+public final class Ou extends ConjonctionDeCoordination {
 
   public Ou(Affirmation.ValeurDevérité a, Affirmation.ValeurDevérité b) {
     super(a, b);
