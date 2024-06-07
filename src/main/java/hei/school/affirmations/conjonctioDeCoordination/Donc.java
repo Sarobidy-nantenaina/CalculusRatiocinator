@@ -2,7 +2,7 @@ package hei.school.affirmations.conjonctioDeCoordination;
 
 import hei.school.affirmations.Affirmation;
 
-public class Donc extends ConjonctionDeCoordination {
+public final class Donc extends ConjonctionDeCoordination {
 
   public Donc(Affirmation.ValeurDevérité a, Affirmation.ValeurDevérité b) {
     super(a, b);
