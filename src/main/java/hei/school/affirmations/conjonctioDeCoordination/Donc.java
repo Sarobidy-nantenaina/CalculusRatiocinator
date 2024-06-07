@@ -12,10 +12,8 @@ public final class Donc extends ConjonctionDeCoordination {
   public Affirmation.ValeurDevérité évaluer() {
     if (a == Affirmation.ValeurDevérité.VRAI && b == Affirmation.ValeurDevérité.FAUX) {
       return Affirmation.ValeurDevérité.FAUX;
-    } else if (a == Affirmation.ValeurDevérité.FAUX || b == Affirmation.ValeurDevérité.VRAI) {
-      return Affirmation.ValeurDevérité.VRAI;
     } else {
-      return Affirmation.ValeurDevérité.JENESAISPAS;
+      return Affirmation.ValeurDevérité.VRAI;
     }
   }
 }

@@ -15,7 +15,7 @@ public final class Et extends ConjonctionDeCoordination {
     } else if (a == Affirmation.ValeurDevérité.FAUX || b == Affirmation.ValeurDevérité.FAUX) {
       return Affirmation.ValeurDevérité.FAUX;
     } else {
-      return Affirmation.ValeurDevérité.JENESAISPAS;
+      return Affirmation.ValeurDevérité.FAUX;
     }
   }
 }

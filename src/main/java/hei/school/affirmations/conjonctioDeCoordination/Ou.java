@@ -10,12 +10,10 @@ public final class Ou extends ConjonctionDeCoordination {
 
   @Override
   public Affirmation.ValeurDevérité évaluer() {
-    if (a == Affirmation.ValeurDevérité.VRAI || b == Affirmation.ValeurDevérité.VRAI) {
-      return Affirmation.ValeurDevérité.VRAI;
-    } else if (a == Affirmation.ValeurDevérité.FAUX && b == Affirmation.ValeurDevérité.FAUX) {
+     if (a == Affirmation.ValeurDevérité.FAUX && b == Affirmation.ValeurDevérité.FAUX) {
       return Affirmation.ValeurDevérité.FAUX;
     } else {
-      return Affirmation.ValeurDevérité.JENESAISPAS;
+      return Affirmation.ValeurDevérité.VRAI;
     }
   }
 }
